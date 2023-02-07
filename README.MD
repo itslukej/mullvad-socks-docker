@@ -11,7 +11,7 @@ docker run \
   -e ENDPOINT= \
   --cap-add NET_ADMIN \
   -p localhost:1080:1080 \
-  mullvad-socks-docker
+  ghcr.io/itslukej/mullvad-socks-docker
 ```
 
 The flag `--cap-add NET_ADMIN` is required and `-p localhost:1080:1080` exposes the socks5 proxy on `localhost:1080`

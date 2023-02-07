@@ -1,5 +1,4 @@
 FROM alpine:3.14
-USER root
 WORKDIR /app
 
 RUN apk add --no-cache wireguard-tools socat
